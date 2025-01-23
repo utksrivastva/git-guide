@@ -1,3 +1,3 @@
 # git-guide
 
-- A quick reference to commonly used git commands
+- A comprehensive reference to commonly used git commands
