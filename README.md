@@ -12,6 +12,8 @@ git clone <repository-url>
 ### Add remote repository
 git remote add origin <repository-url>
 
+## Basic Commands
+
 ### Check repository status
 git status
 
