@@ -36,3 +36,11 @@ git commit -am "commit message"  # Add and commit in one step
 git push origin <branch-name>
 git push -u origin <branch-name>   # Set upstream branch
 ```
+## Branch Operations
+
+### List branches
+```git
+git branch      # Local branches
+git branch -r   # Remote branches
+git branch -a   # All branches
+```
