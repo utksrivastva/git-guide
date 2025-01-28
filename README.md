@@ -59,3 +59,5 @@ git switch <branch-name>
 git delete -d <branch-name>
 git branch -D <branch-name>
 ```
+
+## Working with Changes
