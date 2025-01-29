@@ -61,3 +61,21 @@ git branch -D <branch-name>
 ```
 
 ## Working with Changes
+
+### View changes
+```git
+git diff                # Unstaged changes
+git diff --staged       # Staged changes
+```
+### Discard changes
+```git
+git checkout -- <filename>    # Discard file changes
+git restore <filename>        # Modern alternative
+git reset --hard    
+```
+### Temporary store changes
+```git
+git stash
+git stash pop              # Apply and remove stashed changes
+git stash apply            # Apply but keep stashed changes
+```
