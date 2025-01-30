@@ -79,3 +79,9 @@ git stash
 git stash pop              # Apply and remove stashed changes
 git stash apply            # Apply but keep stashed changes
 ```
+## History and Logs
+```git
+git log
+git log --oneline
+git log --graph
+```
