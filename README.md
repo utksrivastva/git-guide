@@ -85,10 +85,11 @@ git log
 git log --oneline
 git log --graph
 ```
-##Check specific commit
+## Check specific commit
 ```git
 git show <commit-hash>
 ```
-# Compare branches
-
+## Compare branches
+```git
 git diff <branch1> <branch2>
+```
