@@ -79,7 +79,7 @@ git stash
 git stash pop              # Apply and remove stashed changes
 git stash apply            # Apply but keep stashed changes
 ```
-## History and Logs
+### History and Logs
 ```git
 git log
 git log --oneline
@@ -92,4 +92,18 @@ git show <commit-hash>
 ## Compare branches
 ```git
 git diff <branch1> <branch2>
+```
+### Merging and Rebasing
+## Merge branches
+```
+git merge <branch-name>
+```
+## Rebase branch
+```
+git rebase <branch-name>
+```
+## Handle merge conflicts
+```git
+git merge --abort        # Cancel merge
+git rebase --abort       # Cancel rebase
 ```
