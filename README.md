@@ -107,3 +107,15 @@ git rebase <branch-name>
 git merge --abort        # Cancel merge
 git rebase --abort       # Cancel rebase
 ```
+
+### Remote Operations
+
+## Update local repository
+```git
+git fetch
+git pull
+```
+## Show remote info
+```git
+git remote -v
+```
