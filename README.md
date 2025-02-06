@@ -121,8 +121,22 @@ git remote -v
 ```
 
 ### Configuration
-```
+```git
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 git config --list
+```
+### Advanced Operations
+## Revert commit
+```git
+git revert <commit-hash>
+
+# Reset to specific commit
+git reset --soft <commit-hash>    # Keep changes staged
+git reset --mixed <commit-hash>   # Keep changes unstaged
+git reset --hard <commit-hash>    # Discard changes
+
+# Clean untracked files
+git clean -n            # Dry run
+git clean -f            # Force clean
 ```
