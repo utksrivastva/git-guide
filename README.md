@@ -136,7 +136,9 @@ git reset --soft <commit-hash>    # Keep changes staged
 git reset --mixed <commit-hash>   # Keep changes unstaged
 git reset --hard <commit-hash>    # Discard changes
 
-# Clean untracked files
+```
+## Clean untracked files
+```git
 git clean -n            # Dry run
 git clean -f            # Force clean
 ```
