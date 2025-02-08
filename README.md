@@ -32,30 +32,30 @@ git commit -m "commit message"
 git commit -am "commit message"  # Add and commit in one step    
 ```
 ### Push changes
-```git
+```bash
 git push origin <branch-name>
 git push -u origin <branch-name>   # Set upstream branch
 ```
 ## Branch Operations
 
 ### List branches
-```git
+```bash
 git branch      # Local branches
 git branch -r   # Remote branches
 git branch -a   # All branches
 ```
 ### Create branches
-```git
+```bash
 git branch <branch-name>
 git checkout -b <branch-name> # Create and switch to a new branch
 ```
 ### Switch branches
-```git
+```bash
 git checkout <branch-name>
 git switch <branch-name>
 ```
 ### Delete branch
-```git
+```bash
 git delete -d <branch-name>
 git branch -D <branch-name>
 ```
@@ -63,47 +63,47 @@ git branch -D <branch-name>
 ## Working with Changes
 
 ### View changes
-```git
+```bash
 git diff                # Unstaged changes
 git diff --staged       # Staged changes
 ```
 ### Discard changes
-```git
+```bash
 git checkout -- <filename>    # Discard file changes
 git restore <filename>        # Modern alternative
 git reset --hard    
 ```
 ### Temporary store changes
-```git
+```bash
 git stash
 git stash pop              # Apply and remove stashed changes
 git stash apply            # Apply but keep stashed changes
 ```
 ### History and Logs
-```git
+```bash
 git log
 git log --oneline
 git log --graph
 ```
 ## Check specific commit
-```git
+```bash
 git show <commit-hash>
 ```
 ## Compare branches
-```git
+```bash
 git diff <branch1> <branch2>
 ```
 ### Merging and Rebasing
 ## Merge branches
-```
+```bash
 git merge <branch-name>
 ```
 ## Rebase branch
-```
+```bash
 git rebase <branch-name>
 ```
 ## Handle merge conflicts
-```git
+```bash
 git merge --abort        # Cancel merge
 git rebase --abort       # Cancel rebase
 ```
@@ -111,24 +111,24 @@ git rebase --abort       # Cancel rebase
 ### Remote Operations
 
 ## Update local repository
-```git
+```bash
 git fetch
 git pull
 ```
 ## Show remote info
-```git
+```bash
 git remote -v
 ```
 
 ### Configuration
-```git
+```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 git config --list
 ```
 ### Advanced Operations
 ## Revert commit
-```git
+```bash
 git revert <commit-hash>
 
 # Reset to specific commit
