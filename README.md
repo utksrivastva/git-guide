@@ -4,30 +4,30 @@
 ## Repository Setup
 
 ### Initialize a new repository
-```git
+```bash
 git init
 ```
 ### Clone an existing repository
-```git
+```bash
 git clone <repository-url>
 ```
 ### Add remote repository
-```git
+```bash
 git remote add origin <repository-url>
 ```
 ## Basic Commands
 
 ### Check repository status
-```git
+```bash
 git status
 ```
 ### Add files to staging
-```git
+```bash
 git add <filename>      # Add specific file
 git add .              # Add all files
 ```
 ### Commit changes
-```git
+```bash
 git commit -m "commit message"
 git commit -am "commit message"  # Add and commit in one step    
 ```
