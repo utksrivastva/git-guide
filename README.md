@@ -98,7 +98,7 @@ git diff <branch1> <branch2>
 ```bash
 git merge <branch-name>
 ```
-## Rebase branch
+## Rebase a branch
 ```bash
 git rebase <branch-name>
 ```
