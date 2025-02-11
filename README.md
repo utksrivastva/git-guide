@@ -71,6 +71,7 @@ git diff --staged       # Staged changes
 ```bash
 git checkout -- <filename>    # Discard file changes
 git restore <filename>        # Modern alternative
+
 git reset --hard    
 ```
 ### Temporary store changes
