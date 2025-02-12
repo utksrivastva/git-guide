@@ -152,3 +152,12 @@ git commit -m "Initial commit"
 git remote add origin <repository-url>
 git push -u origin main
 ```
+## Contributing to an Existing Project
+```bash
+git clone <repository-url>
+git checkout -b feature-branch
+# After making changes
+git add .
+git commit -m "Add new feature"
+git push -u origin feature-branch
+```
