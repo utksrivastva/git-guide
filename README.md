@@ -139,7 +139,16 @@ git reset --hard <commit-hash>    # Discard changes
 
 ```
 ## Clean untracked files
-```git
+```bash
 git clean -n            # Dry run
 git clean -f            # Force clean
+```
+### Common Scenarios
+## Starting a New Project
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository-url>
+git push -u origin main
 ```
