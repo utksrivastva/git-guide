@@ -161,3 +161,12 @@ git add .
 git commit -m "Add new feature"
 git push -u origin feature-branch
 ```
+## Updating a feature branch
+```bash
+git checkout main
+git pull
+git checkout feature-branch
+git merge main
+# Post resolving merge conflicts (if any)
+git push
+```
